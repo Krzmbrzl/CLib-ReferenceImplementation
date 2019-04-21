@@ -1,0 +1,7 @@
+# Arma stuff
+*.pbo
+*.bisign
+
+# scripts
+*.bat
+*.sh
