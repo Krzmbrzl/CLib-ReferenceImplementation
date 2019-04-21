@@ -1,0 +1,3 @@
+# Explicitly include Arma stuff
+!*.pbo
+!*.bisign
