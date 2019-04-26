@@ -27,7 +27,7 @@
 diag_log "Successfully loaded the CLibRef/PFH module on the client";
 
 // define a new function "on the fly" aka. a variable holding code
-// For function this macro should be used instead of GVAR as it might append someAmmo
+// For function this macro should be used instead of GVAR as it might append some
 // debug information to this function's code
 DFUNC(triggerCondition) = {
 	// The condition for the trigger is whether the player is in the trigger area
