@@ -1,5 +1,5 @@
 #include "macros.hpp"
-class CfgPatches {
+class PREFIX {
     class ClibRef {
         units[] = {};
         weapons[] = {};
