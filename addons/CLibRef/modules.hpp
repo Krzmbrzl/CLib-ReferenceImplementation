@@ -8,7 +8,9 @@
 class CfgCLibModules {
 	// This is the name of this mod as can be used to refer to it via the Clib-framework
 	// casing does not matter (all names are being transformed to lower-cases)
-    class PerformanceMonitor {
+	// The name should be given via the PREFIX macro in order to be able to use the FUNC macro to
+	// refer to functions defined here. Everything else will lead to confusion.
+    class PREFIX {
 		// Specify the absolute path of the root of all listed modules below
 		// this is determined by the used PBO-prefix
         path = "rvn\clibref\addons\clibref";
