@@ -1,6 +1,6 @@
 class CLib {
 	// Specify which modules (Mods) should get loaded for this mission
-    Modules[] = {"CLib", "Coopetition", "Streamator", "PerformanceMonitor"};
+    Modules[] = {"CLib", "CLibRef"};
 	
 	// Some more advanced CLib-options. Leave them at those values if you aren't sure what you're doing
     useExperimentalAutoload = 0;
