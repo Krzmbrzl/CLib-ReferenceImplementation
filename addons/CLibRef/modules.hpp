@@ -1,5 +1,6 @@
 // include the required addons directly from CLib
 #include "\tc\CLib\addons\CLib\ModuleMacros.hpp"
+#include "macros.hpp"
 
 // This file is kind of the CLib-correspondant to the standard CfgFunctions - though it got way more features
 // concerning both: security and debuggabilty (e.g. full stack-traces).
@@ -25,7 +26,7 @@ class CfgCLibModules {
 		dependency[] = {};
 		
 		// the module-names are also case-insensitive
-		MODULE(PFH) {
+		MODULE(PerFrame) {
 			// The dependency-array specifies on which components inside the CLib-framework this particular
 			// module is dependent.
 			dependency[] = {"CLib/PerFrame", "Clib/Events"};
