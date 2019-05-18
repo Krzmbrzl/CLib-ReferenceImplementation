@@ -35,6 +35,12 @@ class CfgCLibModules {
 			// This is actually a special function as this is an entry point (see at the bottom of this file)
 			FNC(clientInit);
 		};
+		
+		MODULE(Events) {
+			dependency[] = {"CLib/Events"};
+			
+			FNC(clientInit);
+		}
     };
 };
 
