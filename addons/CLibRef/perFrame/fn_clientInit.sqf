@@ -7,7 +7,7 @@
  * Author: Raven
  * 
  * Description:
- * Initializes the CLibRef PFH module on the client-side. This example uses CLib's waitUntil
+ * Initializes the CLibRef perFrame module on the client-side. This example uses CLib's waitUntil
  * function to mimic a repeatable, clientside trigger
  * 
  * Parameter(s):
@@ -24,7 +24,7 @@
 // Normally one would use the DUMP(MessageHere) macro for this kind of logging as the log
 // messages would not be part of the final code when the ISDEV flag has not been set.
 // But for demonstration purposes we always want this message to be logged
-diag_log "Successfully loaded the CLibRef/PFH module on the client";
+diag_log "Successfully loaded the CLibRef/perFrame module on the client";
 
 // define a new function "on the fly" aka. a variable holding code
 // For function this macro should be used instead of GVAR as it might append some
