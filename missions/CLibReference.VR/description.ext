@@ -1,5 +1,8 @@
 class CLib {
 	// Specify which modules (Mods) should get loaded for this mission
+	// If one only wants to load a particular Module from a Mod, one can specify it in this way: "Mod/Module"
+	// So if you want to load the "Revive" module from the "MyRevive" mod, you'd write "MyRevive/Revive". All
+	// of the module's dependencies are loaded automatically as well.
     Modules[] = {"CLib", "CLibRef"};
 	
 	// Some more advanced CLib-options. Leave them at those values if you aren't sure what you're doing
